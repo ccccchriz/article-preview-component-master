@@ -33,9 +33,31 @@
           <img src="images/avatar-michelle.jpg" alt="" />
           <p class="card__name">Michelle Appleton</p>
           <p class="card__date">28 Jun 2020</p>
-          <button><img src="images/icon-share.svg" alt="share" /></button>
+        </div>
+        <div class="card__share hidden" id="share_menu">
+          <span>SHARE</span>
+          <a href="" id="facebook">
+            <img src="images/icon-facebook.svg" alt="facebook" />
+          </a>
+          <a href="">
+            <img src="images/icon-twitter.svg" alt="twitter" />
+          </a>
+          <a href="">
+            <img src="images/icon-pinterest.svg" alt="pinterest" />
+          </a>
+        </div>
+        <div class="card__button-con" id="button_container">
+          <button
+            class="card__button"
+            id="share_button"
+            aria-expanded="false"
+            aria-controls="share_menu"
+          >
+            <img src="images/icon-share.svg" alt="share" />
+          </button>
         </div>
       </section>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
