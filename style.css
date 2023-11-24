@@ -283,10 +283,19 @@ main {
     position: absolute;
     padding: 1rem;
     border-radius: 10px;
-    transform: translateX(222%) translateY(210%);
+    transform: translateX(226%) translateY(200%);
   }
 
   .card__button-con--open {
     background-color: transparent;
+  }
+
+  .card__share::after {
+    content: "";
+    background-color: hsl(var(--clr-primary-dark-gray-blue));
+    position: absolute;
+    width: 1.5rem;
+    aspect-ratio: 1;
+    transform: translateY(118%) rotateZ(45deg);
   }
 }
